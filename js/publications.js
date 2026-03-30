@@ -45,7 +45,8 @@
       bits.push(escapeHtml(pub.conference));
     if (pub.year != null && pub.year !== "") bits.push(String(pub.year));
     var mid = bits.join(", ");
-    return authors + (mid ? ". " + mid : "") + ".";
+    if (!mid) return authors + ".";
+    return authors + ". <strong>" + mid + "</strong>.";
   }
 
   function sortPubs(a, b) {

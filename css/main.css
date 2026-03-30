@@ -264,7 +264,12 @@ a:focus {
 
 .pub-venue {
   font-size: 0.9rem;
-  color: var(--sidebar-muted);
+  color: var(--text-heading);
+}
+
+.pub-venue strong {
+  color: var(--text-heading);
+  font-weight: 700;
 }
 
 /* Footer */
