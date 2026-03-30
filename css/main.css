@@ -278,8 +278,8 @@ a:focus {
   border-radius: 4px;
   text-align: center;
   min-width: 4.5rem;
-  max-width: 12rem;
   box-sizing: border-box;
+  white-space: nowrap;
 }
 
 .pub-title {

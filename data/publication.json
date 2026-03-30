@@ -20,7 +20,7 @@
     {
       "title": "LLM-Powered Proactive Data Systems",
       "authors": ["Sepanta Zeighami", "Yiming Lin", "Shreya Shankar", "Aditya Parameswaran"],
-      "conference": "IEEE Data Engineering Bulletin",
+      "conference": "IEEE Data Eng. Bull.",
       "year": 2025,
       "paper_link": null,
       "code_link": null,
@@ -103,7 +103,7 @@
     {
     "title": "T-Cove: An exposure tracing System based on Cleaning Wi-Fi Events on Organizational Premises",
     "authors": ["Yiming Lin", "Pramod Khargonekar", "Sharad Mehrotra", "Nalini Venkatasubramanian"],
-    "conference": "PVLDB",
+    "conference": "PVLDB (Demo)",
     "year": 2021,
     "note": "Demo track",
     "paper_link": null,
