@@ -49,19 +49,9 @@
 
     var badge = document.createElement("div");
     badge.className = "pub-badge";
-    badge.setAttribute("aria-label", [conf, year].filter(Boolean).join(", "));
-    if (conf) {
-      var line1 = document.createElement("span");
-      line1.className = "pub-badge__line";
-      line1.textContent = conf;
-      badge.appendChild(line1);
-    }
-    if (year) {
-      var line2 = document.createElement("span");
-      line2.className = "pub-badge__line";
-      line2.textContent = year;
-      badge.appendChild(line2);
-    }
+    var label = [conf, year].filter(Boolean).join(", ");
+    badge.textContent = label;
+    badge.setAttribute("aria-label", label);
     return badge;
   }
 
