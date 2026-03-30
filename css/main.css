@@ -235,7 +235,7 @@ a:focus {
   color: var(--sidebar-muted);
 }
 
-.pub-list {
+.main ul.pub-list {
   list-style: none;
   padding: 0;
   margin: 0;
