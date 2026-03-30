@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Services · Yiming Lin</title>
-  <link rel="stylesheet" href="css/main.css?v=10">
+  <link rel="stylesheet" href="css/main.css?v=11">
 </head>
 <body>
   <header class="masthead">
@@ -33,21 +33,10 @@
 
     <main class="main">
       <h1 class="doc-title">Services</h1>
-      <p class="placeholder-note">Program committees, reviewing, editorial boards, organization roles, etc.</p>
-
-      <h2>Conference organization</h2>
-      <ul>
-        <li>Role, Conference, Year.</li>
-      </ul>
 
       <h2>Program committee</h2>
-      <ul>
-        <li>Conference (Year).</li>
-      </ul>
-
-      <h2>Journal reviewing</h2>
-      <ul>
-        <li>Journal name (optional years).</li>
+      <ul id="service-pc-list" class="service-pc-list" aria-live="polite">
+        <li><p class="placeholder-note">Loading…</p></li>
       </ul>
     </main>
   </div>
@@ -61,5 +50,6 @@
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="js/me.js"></script>
+  <script src="js/services.js?v=1"></script>
 </body>
 </html>
