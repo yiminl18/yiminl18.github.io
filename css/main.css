@@ -277,9 +277,10 @@ a:focus {
   padding: 0 0.6rem;
   border-radius: 4px;
   text-align: center;
-  min-width: 4.5rem;
   box-sizing: border-box;
   white-space: nowrap;
+  width: max-content;
+  min-width: min-content;
 }
 
 .pub-title {
