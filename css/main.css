@@ -216,7 +216,7 @@ a:focus {
   margin: 0 0 1rem;
 }
 
-.main ul,
+.main ul:not(.pub-list),
 .main ol {
   margin: 0 0 1rem;
   padding-left: 1.35rem;
@@ -237,17 +237,21 @@ a:focus {
 
 .main ul.pub-list {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  padding-left: 0;
+  padding-inline-start: 0;
 }
 
-.pub-list li {
+.main ul.pub-list > li {
+  display: block;
+  list-style: none;
   margin: 0 0 1.25rem;
-  padding-bottom: 1rem;
+  padding: 0 0 1rem 0;
   border-bottom: 1px solid #eee;
 }
 
-.pub-list li:last-child {
+.main ul.pub-list > li:last-child {
   border-bottom: none;
 }
 
