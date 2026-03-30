@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Efficient and Effective Batch-Aware Model Selection for Large Language Models",
+      "authors": ["Guangxue Zhang", "Yiming Lin", "Sharad Mehrotra"],
+      "conference": "SIGMOD",
+      "year": 2026,
+      "paper_link": null,
+      "code_link": null,
+      "video": null
+    },
+    {
+      "title": "Bolt-on, Verifiable Provenance for LLM-Powered Data Processing",
+      "authors": ["Yiming Lin", "Sepanta Zeighami", "Aditya G. Parameswaran"],
+      "conference": "VLDB",
+      "year": 2026,
+      "paper_link": null,
+      "code_link": null,
+      "video": null
+    },
+    {
+      "title": "LLM-Powered Proactive Data Systems",
+      "authors": ["Sepanta Zeighami", "Yiming Lin", "Shreya Shankar", "Aditya Parameswaran"],
+      "conference": "IEEE Data Engineering Bulletin",
+      "year": 2025,
+      "paper_link": null,
+      "code_link": null,
+      "video": null
+    },
+    {
+      "title": "TWIX: Automatically Reconstructing Structured Data from Templatized Documents",
+      "authors": ["Yiming Lin", "Mawil Hasan", "Rohan Kosalge", "Alvin Cheung", "Aditya G. Parameswaran"],
+      "conference": "SIGMOD",
+      "year": 2026,
+      "paper_link": null,
+      "code_link": null,
+      "video": null
+    }
+]

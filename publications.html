@@ -38,17 +38,10 @@
 
     <main class="main">
       <h1 class="doc-title">Publications</h1>
-      <p class="placeholder-note">Replace the sample entries below with your papers (newest first).</p>
+      <p class="placeholder-note" id="pub-source-note">List is loaded from <code>data/publication.json</code>.</p>
 
-      <ul class="pub-list">
-        <li>
-          <div class="pub-title">Paper Title Goes Here</div>
-          <div class="pub-venue">Author A, <strong>Yiming Lin</strong>, Author C. Conference or Journal, Year. <a href="#">PDF</a> · <a href="#">Code</a></div>
-        </li>
-        <li>
-          <div class="pub-title">Another Representative Publication</div>
-          <div class="pub-venue"><strong>Yiming Lin</strong>, Coauthor. Venue Abbreviation, Year.</div>
-        </li>
+      <ul class="pub-list" id="pub-list" aria-live="polite">
+        <li><p class="placeholder-note">Loading publications…</p></li>
       </ul>
     </main>
   </div>
@@ -61,5 +54,6 @@
     </p>
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="js/publications.js"></script>
 </body>
 </html>
