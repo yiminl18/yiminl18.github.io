@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yiming Lin</title>
-  <link rel="stylesheet" href="css/main.css?v=5">
+  <link rel="stylesheet" href="css/main.css?v=6">
 </head>
 <body>
   <header class="masthead">
@@ -24,51 +24,25 @@
 
   <div class="page">
     <aside class="sidebar" aria-label="Profile">
-      <img class="sidebar__photo" src="data/yiming.png" alt="Yiming Lin" width="180" height="180" loading="lazy" decoding="async">
-      <h2 class="sidebar__name">Yiming Lin</h2>
-      <p class="sidebar__role">Your title and affiliation. One short line or two.</p>
+      <img id="me-photo" class="sidebar__photo" src="data/yiming.png" alt="" width="180" height="180" loading="lazy" decoding="async">
+      <h2 id="me-name" class="sidebar__name">Yiming Lin</h2>
+      <p id="me-role" class="sidebar__role"></p>
 
       <h3 class="sidebar__section-title">Contact</h3>
-      <ul>
-        <li>Your city, country</li>
-        <li><a href="mailto:you@example.edu">Email</a></li>
-        <li><a href="https://twitter.com/">Twitter</a></li>
-        <li><a href="https://github.com/yiminl18">GitHub</a></li>
-        <li><a href="https://scholar.google.com/">Google Scholar</a></li>
-      </ul>
+      <ul id="me-contact"></ul>
     </aside>
 
     <main class="main">
       <h1 class="doc-title">About Me</h1>
-
-      <p>
-        Replace this paragraph with your bio: affiliation, role, and what you work on.
-        The layout follows the same information architecture as typical
-        <a href="https://pinjiahe.github.io/">academic personal sites</a>
-        built with Jekyll and Academic Pages–style themes.
-      </p>
-
-      <p>Your research spans <em>topic A</em>, <em>topic B</em>, and <em>topic C</em>. You are interested in:</p>
-      <ul>
-        <li>Research direction one: short description.</li>
-        <li>Research direction two: short description.</li>
-        <li>Research direction three: short description.</li>
-      </ul>
-
-      <p>
-        Add a paragraph on impact: venues, citations, awards, or industry recognition—then
-        your education path (postdoc, Ph.D., undergraduate) with advisor names and institutions.
-      </p>
-
-      <p class="placeholder-note">
-        Edit <code>index.html</code> and other pages in this folder; styles live in <code>css/main.css</code>.
-      </p>
+      <div id="about-main" aria-live="polite">
+        <p class="placeholder-note">Loading…</p>
+      </div>
     </main>
   </div>
 
   <footer class="site-footer">
     <p>
-      © <span id="year"></span> Yiming Lin ·
+      © <span id="year"></span> <span id="footer-name">Yiming Lin</span> ·
       Layout sketch inspired by <a href="https://academicpages.github.io/">Academic Pages</a> /
       <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a>
     </p>
@@ -76,5 +50,6 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+  <script src="js/me.js"></script>
 </body>
 </html>
