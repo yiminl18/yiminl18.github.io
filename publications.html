@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yiming Lin</title>
+  <title>Publications · Yiming Lin</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -12,8 +12,8 @@
       <h1 class="masthead__title"><a href="index.html">Yiming Lin</a></h1>
       <nav aria-label="Primary">
         <ul class="site-nav">
-          <li><a href="index.html" class="is-active">About</a></li>
-          <li><a href="publications.html">Publications</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="publications.html" class="is-active">Publications</a></li>
           <li><a href="team.html">Team</a></li>
           <li><a href="teaching.html">Teaching</a></li>
           <li><a href="services.html">Services</a></li>
@@ -24,46 +24,32 @@
 
   <div class="page">
     <aside class="sidebar" aria-label="Profile">
-      <!-- Optional: replace src with your photo -->
       <div class="sidebar__photo" role="img" aria-label="Profile photo placeholder"></div>
       <h2 class="sidebar__name">Yiming Lin</h2>
-      <p class="sidebar__role">Your title and affiliation. One short line or two.</p>
-
+      <p class="sidebar__role">Your title and affiliation.</p>
       <h3 class="sidebar__section-title">Contact</h3>
       <ul>
         <li>Your city, country</li>
         <li><a href="mailto:you@example.edu">Email</a></li>
-        <li><a href="https://twitter.com/">Twitter</a></li>
         <li><a href="https://github.com/yiminl18">GitHub</a></li>
         <li><a href="https://scholar.google.com/">Google Scholar</a></li>
       </ul>
     </aside>
 
     <main class="main">
-      <h1 class="doc-title">About Me</h1>
+      <h1 class="doc-title">Publications</h1>
+      <p class="placeholder-note">Replace the sample entries below with your papers (newest first).</p>
 
-      <p>
-        Replace this paragraph with your bio: affiliation, role, and what you work on.
-        The layout follows the same information architecture as typical
-        <a href="https://pinjiahe.github.io/">academic personal sites</a>
-        built with Jekyll and Academic Pages–style themes.
-      </p>
-
-      <p>Your research spans <em>topic A</em>, <em>topic B</em>, and <em>topic C</em>. You are interested in:</p>
-      <ul>
-        <li>Research direction one: short description.</li>
-        <li>Research direction two: short description.</li>
-        <li>Research direction three: short description.</li>
+      <ul class="pub-list">
+        <li>
+          <div class="pub-title">Paper Title Goes Here</div>
+          <div class="pub-venue">Author A, <strong>Yiming Lin</strong>, Author C. Conference or Journal, Year. <a href="#">PDF</a> · <a href="#">Code</a></div>
+        </li>
+        <li>
+          <div class="pub-title">Another Representative Publication</div>
+          <div class="pub-venue"><strong>Yiming Lin</strong>, Coauthor. Venue Abbreviation, Year.</div>
+        </li>
       </ul>
-
-      <p>
-        Add a paragraph on impact: venues, citations, awards, or industry recognition—then
-        your education path (postdoc, Ph.D., undergraduate) with advisor names and institutions.
-      </p>
-
-      <p class="placeholder-note">
-        Edit <code>index.html</code> and other pages in this folder; styles live in <code>css/main.css</code>.
-      </p>
     </main>
   </div>
 
@@ -74,8 +60,6 @@
       <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a>
     </p>
   </footer>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
