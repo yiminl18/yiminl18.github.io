@@ -38,15 +38,31 @@
     });
   }
 
-  function venueInnerHtml(pub) {
-    var authors = formatAuthors(pub.authors);
-    var bits = [];
-    if (pub.conference != null && pub.conference !== "")
-      bits.push(escapeHtml(pub.conference));
-    if (pub.year != null && pub.year !== "") bits.push(String(pub.year));
-    var mid = bits.join(", ");
-    if (!mid) return authors + ".";
-    return authors + ". <strong>" + mid + "</strong>.";
+  function createBadge(pub) {
+    var conf =
+      pub.conference != null && pub.conference !== ""
+        ? String(pub.conference)
+        : "";
+    var year =
+      pub.year != null && pub.year !== "" ? String(pub.year) : "";
+    if (!conf && !year) return null;
+
+    var badge = document.createElement("div");
+    badge.className = "pub-badge";
+    badge.setAttribute("aria-label", [conf, year].filter(Boolean).join(", "));
+    if (conf) {
+      var line1 = document.createElement("span");
+      line1.className = "pub-badge__line";
+      line1.textContent = conf;
+      badge.appendChild(line1);
+    }
+    if (year) {
+      var line2 = document.createElement("span");
+      line2.className = "pub-badge__line";
+      line2.textContent = year;
+      badge.appendChild(line2);
+    }
+    return badge;
   }
 
   function sortPubs(a, b) {
@@ -71,16 +87,25 @@
 
       pubs.forEach(function (pub) {
         var li = document.createElement("li");
+
+        var row = document.createElement("div");
+        row.className = "pub-row";
+
+        var badge = createBadge(pub);
+        if (badge) row.appendChild(badge);
+
         var title = document.createElement("div");
         title.className = "pub-title";
         title.textContent = pub.title || "";
+        row.appendChild(title);
+
+        li.appendChild(row);
 
         var venue = document.createElement("div");
         venue.className = "pub-venue";
-        venue.innerHTML = venueInnerHtml(pub);
+        venue.innerHTML = formatAuthors(pub.authors) + ".";
         appendLinks(venue, pub);
 
-        li.appendChild(title);
         li.appendChild(venue);
         list.appendChild(li);
       });
