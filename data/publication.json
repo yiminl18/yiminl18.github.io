@@ -1,6 +1,6 @@
 [
     {
-      "title": "Efficient and Effective Batch-Aware Model Selection for Large Language Models",
+      "title": "OctoSelector: Efficient and Effective Batch-Aware Model Selection for Large Language Models",
       "authors": ["Guangxue Zhang", "Yiming Lin", "Sharad Mehrotra"],
       "conference": "SIGMOD",
       "year": 2026,
