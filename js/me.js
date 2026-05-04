@@ -193,7 +193,7 @@
     if (peopleDiv) {
       var p = document.createElement("p");
       p.textContent =
-        "I am recruiting research assistants and postdocs starting Fall 2026, and PhD students starting Fall 2027. " +
+        "I am recruiting research assistants and postdocs starting Fall 2026, and PhD students starting Spring 2027. " +
         "If you are interested, please email me your CV, the position you are seeking, and a brief description of the research you would like to pursue.";
       peopleDiv.appendChild(p);
     }
