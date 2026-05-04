@@ -1,21 +1,21 @@
 {
   "name": "Yiming Lin",
   "role": "Postdoctoral Researcher, University of California, Berkeley",
+  "role_incoming": "Incoming Nanyang Assistant Professor, at NTU (Starting Fall 2026)",
   "location": "Berkeley, CA, USA",
-  "email": "yiming.lin@berkeley.edu",
+  "email": "yiminglin@berkeley.edu",
   "photo": "data/yiming.png",
   "contact_links": [
-    { "label": "GitHub", "href": "https://github.com/yiminl18" },
     { "label": "Google Scholar", "href": "https://scholar.google.com/" }
   ],
   "bio_paragraphs": [
-    "Yiming is currently a Postdoctoral Researcher at the University of California, Berkeley, working with <a href=\"https://people.eecs.berkeley.edu/~adityagp/\">Prof.&nbsp;Aditya Parameswaran</a>. He earned his Ph.D. from the University of California, Irvine, under the supervision of <a href=\"https://sites.google.com/uci.edu/tipperslab/home?authuser=0\">Prof.&nbsp;Sharad Mehrotra</a>, and his bachelor’s degree from the Harbin Institute of Technology. He is broadly interested in building data management systems at the intersection of structured and unstructured data with Large Language Models (LLMs). His recent research explores developing LLM-powered data systems for multimodal analytics, with a focus on extracting structure from unstructured documents, supporting scalable AI computations, provenance in LLM-powered data processing, and agentic query engines."
+    "I am currently a Postdoctoral Researcher at the University of California, Berkeley, working with <a href=\"https://people.eecs.berkeley.edu/~adityagp/\">Prof.&nbsp;Aditya Parameswaran</a>. I will join Nanyang Technological University (NTU) as <a href=\"https://careeraidhub.com/nanyang-assistant-associate-professorship-nap-at-ntu/\">Nanyang Assistant Professor</a> in Fall 2026. <strong><u><em><span style=\"color:#0a509e;\">I am recruiting research assistants and postdocs starting Fall 2026, and PhD students starting Fall 2027. If you are interested, please email me your CV, the position you are seeking, and a brief description of the research you would like to pursue.</span></em></u></strong>",
+    "My research focuses on building reliable and scalable AI-powered systems for complex data work. Recently, I have been working on efficient document analytics through document structure understanding, and scalable LLM-powered analytics via query-time mechanisms and non-LLM proxies.",
+    "<strong>Impact.</strong> My work on scalable, compute-intensive table ingestion and analytics has powered multiple smart space applications, providing reliable location services for years. These applications were deployed across five sites in two countries over six years, covering 40+ buildings at three universities (UCI, BSU, and Plaksha University in India), a senior living facility (Walnut Village, Orange County), and the U.S. Navy. During COVID-19, it powered occupancy tracking in T-COVE and was deployed across 30+ buildings at UC Irvine to help people avoid crowded spaces. My work on document analytics has produced several open-source projects (e.g., TWIX), processing over 30,000 pages across 300+ collections for collaborators in industry, public defense, journalism, and beyond.",
+    "<strong>Other Facts.</strong> I earned my Ph.D. from the University of California, Irvine, advised by <a href=\"https://sites.google.com/uci.edu/tipperslab/home?authuser=0\">Prof.&nbsp;Sharad Mehrotra</a>, and my bachelor’s degree from the Harbin Institute of Technology. I love landscape photography and traveling, and keep sharing the most recent photographs on my <a href=\"https://500px.com/\">500px</a>."
   ],
-  "photography_paragraph": "He loves landscape photography and traveling, and keeps sharing the most recent photographs on his <a href=\"https://500px.com/\">500px</a>.",
-  "resume": {
-    "href": "data/resume.pdf",
-    "label": "Download my résumé"
-  },
+  "photography_paragraph": "",
+  "resume": null,
   "research_interests": [
     "Unstructured Data Management",
     "Data Cleaning",

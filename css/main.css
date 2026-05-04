@@ -45,6 +45,9 @@ a:focus {
 .masthead {
   background: var(--masthead-bg);
   border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .masthead__inner {
@@ -139,9 +142,17 @@ a:focus {
 }
 
 .sidebar__role {
-  margin: 0 0 1rem;
+  margin: 0 0 0.35rem;
   font-size: 0.88rem;
   color: var(--sidebar-muted);
+  line-height: 1.45;
+}
+
+.sidebar__role-incoming {
+  margin: 0 0 1rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--link);
   line-height: 1.45;
 }
 
@@ -216,6 +227,10 @@ a:focus {
 
 .main p {
   margin: 0 0 1rem;
+}
+
+.main p strong {
+  color: var(--text-heading);
 }
 
 .main ul:not(.pub-list):not(.service-pc-list),
@@ -336,4 +351,58 @@ a:focus {
 
 .site-footer a:hover {
   color: var(--link);
+}
+
+/* =============================================
+   Scroll-reveal preview sections (index.html)
+   ============================================= */
+
+.preview-section {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.preview-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered delay for each section */
+#preview-publications { transition-delay: 0s; }
+#preview-people       { transition-delay: 0.1s; }
+#preview-services     { transition-delay: 0.2s; }
+
+.preview-section__title {
+  margin: 0 0 0.75rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.preview-section__title a {
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+.preview-section__title a:hover,
+.preview-section__title a:focus {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+.preview-section__viewall {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--link);
+}
+
+.preview-section__viewall:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
 }

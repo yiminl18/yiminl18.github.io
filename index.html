@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yiming Lin</title>
-  <link rel="stylesheet" href="css/main.css?v=13">
+  <link rel="stylesheet" href="css/main.css?v=19">
 </head>
 <body>
   <header class="masthead">
@@ -12,7 +12,7 @@
       <h1 class="masthead__title"><a href="index.html">Yiming Lin</a></h1>
       <nav aria-label="Primary">
         <ul class="site-nav">
-          <li><a href="index.html" class="is-active">About</a></li>
+          <li><a href="index.html" class="is-active">Home</a></li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="people.html">People</a></li>
           <li><a href="services.html">Services</a></li>
@@ -26,6 +26,7 @@
       <img id="me-photo" class="sidebar__photo" src="data/yiming.png" alt="" width="180" height="180" loading="lazy" decoding="async">
       <h2 id="me-name" class="sidebar__name">Yiming Lin</h2>
       <p id="me-role" class="sidebar__role"></p>
+      <p id="me-role-incoming" class="sidebar__role-incoming"></p>
 
       <h3 class="sidebar__section-title">Contact</h3>
       <ul id="me-contact"></ul>
@@ -35,6 +36,28 @@
       <h1 class="doc-title">About Me</h1>
       <div id="about-main" aria-live="polite">
         <p class="placeholder-note">Loading…</p>
+      </div>
+
+      <!-- Publications Preview -->
+      <div id="preview-publications" class="preview-section" aria-label="Publications preview">
+        <h2 class="preview-section__title"><a href="publications.html">Publications</a></h2>
+        <p>I primarily publish in data management (database) venues, the top of which include VLDB, SIGMOD, and ICDE.</p>
+        <ul class="pub-list" id="preview-pub-list"></ul>
+        <a class="preview-section__viewall" href="publications.html">View all publications →</a>
+      </div>
+
+      <!-- People Preview -->
+      <div id="preview-people" class="preview-section" aria-label="People preview">
+        <h2 class="preview-section__title"><a href="people.html">People</a></h2>
+        <div id="preview-people-content"></div>
+        <a class="preview-section__viewall" href="people.html">View people page →</a>
+      </div>
+
+      <!-- Services Preview -->
+      <div id="preview-services" class="preview-section" aria-label="Services preview">
+        <h2 class="preview-section__title"><a href="services.html">Services</a></h2>
+        <ul class="service-pc-list" id="preview-service-list"></ul>
+        <a class="preview-section__viewall" href="services.html">View all services →</a>
       </div>
     </main>
   </div>
@@ -49,6 +72,6 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-  <script src="js/me.js"></script>
+  <script src="js/me.js?v=4"></script>
 </body>
 </html>

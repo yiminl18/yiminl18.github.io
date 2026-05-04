@@ -47,7 +47,7 @@
     {
     "title": "SPADE: Synthesizing Data Quality Assertions for Large Language Model Pipelines",
     "authors": ["Shreya Shankar", "Haotian Li", "Parth Asawa", "Madelon Hulsebos", "Yiming Lin", "J.D. Zamfirescu-Pereira", "Harrison Chase", "Will Fu-Hinthorn", "Aditya G. Parameswaran", "Eugene Wu"],
-    "conference": "PVLDB",
+    "conference": "VLDB",
     "year": 2024,
     "note": "Industry track",
     "paper_link": null,
@@ -66,7 +66,7 @@
     {
     "title": "ZIP: Lazy Imputation during Query Processing",
     "authors": ["Yiming Lin", "Sharad Mehrotra"],
-    "conference": "PVLDB",
+    "conference": "VLDB",
     "year": 2023,
     "paper_link": null,
     "code_link": null,
@@ -75,7 +75,7 @@
     {
     "title": "Auto-BI: Automatically Build BI-Models Leveraging Local Join Prediction and Global Schema Graph",
     "authors": ["Yiming Lin", "Yeye He", "Surajit Chaudhuri"],
-    "conference": "PVLDB",
+    "conference": "VLDB",
     "year": 2023,
     "paper_link": null,
     "code_link": null,
@@ -94,7 +94,7 @@
     {
     "title": "LOCATER: Cleaning WiFi Connectivity Datasets for Semantic Localization",
     "authors": ["Yiming Lin", "Daokun Jiang", "Roberto Yus", "Andrew Chio", "Georgios Bouloukakis", "Sharad Mehrotra", "Nalini Venkatasubramanian"],
-    "conference": "PVLDB",
+    "conference": "VLDB",
     "year": 2021,
     "paper_link": null,
     "code_link": null,
@@ -103,7 +103,7 @@
     {
     "title": "T-Cove: An exposure tracing System based on Cleaning Wi-Fi Events on Organizational Premises",
     "authors": ["Yiming Lin", "Pramod Khargonekar", "Sharad Mehrotra", "Nalini Venkatasubramanian"],
-    "conference": "PVLDB (Demo)",
+    "conference": "VLDB (Demo)",
     "year": 2021,
     "note": "Demo track",
     "paper_link": null,
