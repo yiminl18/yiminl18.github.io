@@ -118,7 +118,17 @@
 
     var titleEl = document.createElement("div");
     titleEl.className = "pub-title";
-    titleEl.textContent = pub.title || "";
+    if (pub.paper_link) {
+      var titleLink = document.createElement("a");
+      titleLink.href = pub.paper_link;
+      titleLink.textContent = pub.title || "";
+      titleLink.rel = "noopener noreferrer";
+      titleLink.target = "_blank";
+      titleLink.className = "pub-title-link";
+      titleEl.appendChild(titleLink);
+    } else {
+      titleEl.textContent = pub.title || "";
+    }
     row.appendChild(titleEl);
     li.appendChild(row);
 

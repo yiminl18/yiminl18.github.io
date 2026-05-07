@@ -1,5 +1,14 @@
 [
     {
+      "title": "Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents",
+      "authors": ["Ruiying Ma", "Shreya Shankar", "Ruiqi Chen", "Yiming Lin", "Sepanta Zeighami", "Rajoshi Ghosh", "Abhinav Gupta", "Anushrut Gupta", "Tanmai Gopal", "Aditya G. Parameswaran"],
+      "conference": "Preprint",
+      "year": 2026,
+      "paper_link": "https://arxiv.org/abs/2603.20576",
+      "code_link": null,
+      "video": null
+    },
+    {
       "title": "OctoSelector: Efficient and Effective Batch-Aware Model Selection for Large Language Models",
       "authors": ["Guangxue Zhang", "Yiming Lin", "Sharad Mehrotra"],
       "conference": "SIGMOD",
@@ -22,7 +31,7 @@
       "authors": ["Sepanta Zeighami", "Yiming Lin", "Shreya Shankar", "Aditya Parameswaran"],
       "conference": "IEEE Data Engineering Bulletin",
       "year": 2025,
-      "paper_link": null,
+      "paper_link": "https://arxiv.org/abs/2502.13016",
       "code_link": null,
       "video": null
     },
@@ -31,92 +40,92 @@
       "authors": ["Yiming Lin", "Mawil Hasan", "Rohan Kosalge", "Alvin Cheung", "Aditya G. Parameswaran"],
       "conference": "SIGMOD",
       "year": 2026,
+      "paper_link": "https://arxiv.org/abs/2501.06659",
+      "code_link": null,
+      "video": null
+    },
+    {
+      "title": "Towards Accurate and Efficient Document Analytics with Large Language Models",
+      "authors": ["Yiming Lin", "Madelon Hulsebos", "Ruiying Ma", "Shreya Shankar", "Sepanta Zeighami", "Aditya G. Parameswaran", "Eugene Wu"],
+      "conference": "ICDE",
+      "year": 2025,
+      "paper_link": "https://arxiv.org/abs/2405.04674",
+      "code_link": null,
+      "video": null
+    },
+    {
+      "title": "SPADE: Synthesizing Data Quality Assertions for Large Language Model Pipelines",
+      "authors": ["Shreya Shankar", "Haotian Li", "Parth Asawa", "Madelon Hulsebos", "Yiming Lin", "J.D. Zamfirescu-Pereira", "Harrison Chase", "Will Fu-Hinthorn", "Aditya G. Parameswaran", "Eugene Wu"],
+      "conference": "VLDB",
+      "year": 2024,
+      "note": "Industry track",
+      "paper_link": "https://arxiv.org/abs/2401.03038",
+      "code_link": null,
+      "video": null
+    },
+    {
+      "title": "Towards Automatic Predicate Learning at Query Time",
+      "authors": ["Yiming Lin", "Sharad Mehrotra"],
+      "conference": "SIGMOD",
+      "year": 2024,
+      "paper_link": "https://dl.acm.org/doi/10.1145/3639301",
+      "code_link": null,
+      "video": null
+    },
+    {
+      "title": "ZIP: Lazy Imputation during Query Processing",
+      "authors": ["Yiming Lin", "Sharad Mehrotra"],
+      "conference": "VLDB",
+      "year": 2023,
+      "paper_link": "https://dl.acm.org/doi/10.14778/3617838.3617841",
+      "code_link": null,
+      "video": null
+    },
+    {
+      "title": "Auto-BI: Automatically Build BI-Models Leveraging Local Join Prediction and Global Schema Graph",
+      "authors": ["Yiming Lin", "Yeye He", "Surajit Chaudhuri"],
+      "conference": "VLDB",
+      "year": 2023,
+      "paper_link": "https://arxiv.org/abs/2306.12515",
+      "code_link": null,
+      "video": null
+    },
+    {
+      "title": "Robust Occupancy Computation Based on WiFi Connectivity Events",
+      "authors": ["Rithwik Kerur", "Yiming Lin"],
+      "conference": "ICDE@ASTRIDE",
+      "year": 2023,
+      "note": "Winner of the First Place in Workshop Competition",
       "paper_link": null,
       "code_link": null,
       "video": null
     },
     {
-        "title": "Towards Accurate and Efficient Document Analytics with Large Language Models",
-        "authors": ["Yiming Lin", "Madelon Hulsebos", "Ruiying Ma", "Shreya Shankar", "Sepanta Zeighami", "Aditya G. Parameswaran", "Eugene Wu"],
-        "conference": "ICDE",
-        "year": 2025,
-        "paper_link": null,
-        "code_link": null,
-        "video": null
+      "title": "LOCATER: Cleaning WiFi Connectivity Datasets for Semantic Localization",
+      "authors": ["Yiming Lin", "Daokun Jiang", "Roberto Yus", "Andrew Chio", "Georgios Bouloukakis", "Sharad Mehrotra", "Nalini Venkatasubramanian"],
+      "conference": "VLDB",
+      "year": 2021,
+      "paper_link": "https://arxiv.org/abs/2004.09676",
+      "code_link": null,
+      "video": null
     },
     {
-    "title": "SPADE: Synthesizing Data Quality Assertions for Large Language Model Pipelines",
-    "authors": ["Shreya Shankar", "Haotian Li", "Parth Asawa", "Madelon Hulsebos", "Yiming Lin", "J.D. Zamfirescu-Pereira", "Harrison Chase", "Will Fu-Hinthorn", "Aditya G. Parameswaran", "Eugene Wu"],
-    "conference": "VLDB",
-    "year": 2024,
-    "note": "Industry track",
-    "paper_link": null,
-    "code_link": null,
-    "video": null
+      "title": "T-Cove: An exposure tracing System based on Cleaning Wi-Fi Events on Organizational Premises",
+      "authors": ["Yiming Lin", "Pramod Khargonekar", "Sharad Mehrotra", "Nalini Venkatasubramanian"],
+      "conference": "VLDB (Demo)",
+      "year": 2021,
+      "note": "Demo track",
+      "paper_link": "https://vldb.org/pvldb/vol14/p2783-lin.pdf",
+      "code_link": null,
+      "video": null
     },
     {
-    "title": "Towards Automatic Predicate Learning at Query Time",
-    "authors": ["Yiming Lin", "Sharad Mehrotra"],
-    "conference": "SIGMOD",
-    "year": 2024,
-    "paper_link": null,
-    "code_link": null,
-    "video": null
-    },
-    {
-    "title": "ZIP: Lazy Imputation during Query Processing",
-    "authors": ["Yiming Lin", "Sharad Mehrotra"],
-    "conference": "VLDB",
-    "year": 2023,
-    "paper_link": null,
-    "code_link": null,
-    "video": null
-    },
-    {
-    "title": "Auto-BI: Automatically Build BI-Models Leveraging Local Join Prediction and Global Schema Graph",
-    "authors": ["Yiming Lin", "Yeye He", "Surajit Chaudhuri"],
-    "conference": "VLDB",
-    "year": 2023,
-    "paper_link": null,
-    "code_link": null,
-    "video": null
-    },
-    {
-    "title": "Robust Occupancy Computation Based on WiFi Connectivity Events",
-    "authors": ["Rithwik Kerur", "Yiming Lin"],
-    "conference": "ICDE@ASTRIDE",
-    "year": 2023,
-    "note": "Winner of the First Place in Workshop Competition",
-    "paper_link": null,
-    "code_link": null,
-    "video": null
-    },
-    {
-    "title": "LOCATER: Cleaning WiFi Connectivity Datasets for Semantic Localization",
-    "authors": ["Yiming Lin", "Daokun Jiang", "Roberto Yus", "Andrew Chio", "Georgios Bouloukakis", "Sharad Mehrotra", "Nalini Venkatasubramanian"],
-    "conference": "VLDB",
-    "year": 2021,
-    "paper_link": null,
-    "code_link": null,
-    "video": null
-    },
-    {
-    "title": "T-Cove: An exposure tracing System based on Cleaning Wi-Fi Events on Organizational Premises",
-    "authors": ["Yiming Lin", "Pramod Khargonekar", "Sharad Mehrotra", "Nalini Venkatasubramanian"],
-    "conference": "VLDB (Demo)",
-    "year": 2021,
-    "note": "Demo track",
-    "paper_link": null,
-    "code_link": null,
-    "video": null
-    },
-    {
-    "title": "Efficient entity resolution on heterogeneous records",
-    "authors": ["Yiming Lin", "Hongzhi Wang", "Jianzhong Li", "Hong Gao"],
-    "conference": "TKDE",
-    "year": 2020,
-    "paper_link": null,
-    "code_link": null,
-    "video": null
+      "title": "Efficient entity resolution on heterogeneous records",
+      "authors": ["Yiming Lin", "Hongzhi Wang", "Jianzhong Li", "Hong Gao"],
+      "conference": "TKDE",
+      "year": 2020,
+      "paper_link": "https://arxiv.org/abs/1610.09500",
+      "code_link": null,
+      "video": null
     }
 ]

@@ -86,7 +86,17 @@
 
         var title = document.createElement("div");
         title.className = "pub-title";
-        title.textContent = pub.title || "";
+        if (pub.paper_link) {
+          var titleLink = document.createElement("a");
+          titleLink.href = pub.paper_link;
+          titleLink.textContent = pub.title || "";
+          titleLink.rel = "noopener noreferrer";
+          titleLink.target = "_blank";
+          titleLink.className = "pub-title-link";
+          title.appendChild(titleLink);
+        } else {
+          title.textContent = pub.title || "";
+        }
         row.appendChild(title);
 
         li.appendChild(row);
