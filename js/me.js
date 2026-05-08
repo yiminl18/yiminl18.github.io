@@ -60,6 +60,15 @@
         paras = [escapeHtml(me.description)];
       else paras = [];
     }
+    if (me.recruiting) {
+      var box = document.createElement("div");
+      box.className = "recruiting-box";
+      var span = document.createElement("em");
+      span.innerHTML = "<strong>" + escapeHtml(me.recruiting) + "</strong>";
+      box.appendChild(span);
+      root.appendChild(box);
+    }
+
     paras.forEach(function (html) {
       var p = document.createElement("p");
       p.innerHTML = html;
@@ -145,14 +154,14 @@
     venue.innerHTML = authors + (authors ? "." : "");
 
     var firstLink = true;
-    ["paper_link", "code_link", "video"].forEach(function (key) {
+    ["code_link", "video"].forEach(function (key) {
       var href = pub[key];
       if (!href) return;
       venue.appendChild(document.createTextNode(firstLink ? " " : " · "));
       firstLink = false;
       var a = document.createElement("a");
       a.href = href;
-      a.textContent = key === "paper_link" ? "Paper" : key === "code_link" ? "Code" : "Video";
+      a.textContent = key === "code_link" ? "Code" : "Video";
       a.rel = "noopener noreferrer";
       a.target = "_blank";
       venue.appendChild(a);

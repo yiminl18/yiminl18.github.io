@@ -243,6 +243,18 @@ a:focus {
   margin: 0.35rem 0;
 }
 
+.recruiting-box {
+  margin: 0.75rem 0 1rem;
+  padding: 0.85rem 1.1rem;
+  border: 1.5px solid #0a509e;
+  border-radius: 4px;
+  background: #eef4fb;
+  color: #0a509e;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
 .placeholder-note {
   margin: 1rem 0;
   padding: 0.85rem 1rem;

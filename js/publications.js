@@ -19,7 +19,7 @@
 
   function appendLinks(container, pub) {
     var first = true;
-    ["paper_link", "code_link", "video"].forEach(function (key) {
+    ["code_link", "video"].forEach(function (key) {
       var href = pub[key];
       if (!href) return;
       if (first) {
