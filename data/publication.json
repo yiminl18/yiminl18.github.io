@@ -1,9 +1,20 @@
 [
     {
+      "title": "Scout: Scalable Document Extraction via Data Similarity",
+      "authors": ["Yiming Lin", "Chiyu Hao", "Shreya Shankar", "Aditya G. Parameswaran"],
+      "conference": "Preprint",
+      "year": 2026,
+      "date": "2026-08-11",
+      "paper_link": "https://arxiv.org/abs/2608.08261",
+      "code_link": null,
+      "video": null
+    },
+    {
       "title": "Can AI Agents Answer Your Data Questions? A Benchmark for Data Agents",
       "authors": ["Ruiying Ma", "Shreya Shankar", "Ruiqi Chen", "Yiming Lin", "Sepanta Zeighami", "Rajoshi Ghosh", "Abhinav Gupta", "Anushrut Gupta", "Tanmai Gopal", "Aditya G. Parameswaran"],
       "conference": "Preprint",
       "year": 2026,
+      "date": "2026-07-01",
       "paper_link": "https://arxiv.org/abs/2603.20576",
       "code_link": null,
       "video": null
@@ -13,6 +24,7 @@
       "authors": ["Guangxue Zhang", "Yiming Lin", "Sharad Mehrotra"],
       "conference": "SIGMOD",
       "year": 2026,
+      "date": "2026-06-01",
       "paper_link": "https://dl.acm.org/doi/10.1145/3802095",
       "code_link": null,
       "video": null
@@ -22,6 +34,7 @@
       "authors": ["Yiming Lin", "Sepanta Zeighami", "Aditya G. Parameswaran"],
       "conference": "VLDB",
       "year": 2026,
+      "date": "2026-08-01",
       "paper_link": "https://drive.google.com/file/d/16thcosiFUVvwiMr3pgzZRHNejOV52lNp/view?usp=sharing",
       "code_link": null,
       "video": null
@@ -40,6 +53,7 @@
       "authors": ["Yiming Lin", "Mawil Hasan", "Rohan Kosalge", "Alvin Cheung", "Aditya G. Parameswaran"],
       "conference": "SIGMOD",
       "year": 2026,
+      "date": "2026-01-01",
       "paper_link": "https://arxiv.org/abs/2501.06659",
       "code_link": null,
       "video": null

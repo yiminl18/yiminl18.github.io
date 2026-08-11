@@ -55,10 +55,18 @@
     return badge;
   }
 
+  // Optional "date" (YYYY-MM-DD) is used for ranking only; it is never shown.
+  // Within a year, dated entries come first (newest date first); entries
+  // without a date keep their existing relative order.
   function sortPubs(a, b) {
     var ya = a.year != null ? Number(a.year) : 0;
     var yb = b.year != null ? Number(b.year) : 0;
     if (yb !== ya) return yb - ya;
+    var da = a.date ? String(a.date) : "";
+    var db = b.date ? String(b.date) : "";
+    if (da && db) return db.localeCompare(da);
+    if (da) return -1;
+    if (db) return 1;
     return (a.title || "").localeCompare(b.title || "");
   }
 

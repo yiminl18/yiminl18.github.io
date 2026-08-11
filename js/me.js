@@ -191,10 +191,16 @@
       if (pubRes.ok) {
         var pubs = await pubRes.json();
         if (Array.isArray(pubs)) {
+          // Optional "date" (YYYY-MM-DD) ranks within a year; it is never shown.
           pubs.sort(function (a, b) {
             var ya = a.year != null ? Number(a.year) : 0;
             var yb = b.year != null ? Number(b.year) : 0;
             if (yb !== ya) return yb - ya;
+            var da = a.date ? String(a.date) : "";
+            var db = b.date ? String(b.date) : "";
+            if (da && db) return db.localeCompare(da);
+            if (da) return -1;
+            if (db) return 1;
             return (a.title || "").localeCompare(b.title || "");
           });
           var pubList = document.getElementById("preview-pub-list");
