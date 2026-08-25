@@ -8,7 +8,7 @@
   "contact_links": [
     { "label": "Google Scholar", "href": "https://scholar.google.com/" }
   ],
-  "recruiting": "I am recruiting research assistants and postdocs starting Fall 2026, and PhD students starting Spring 2027. If you are interested, please email me your CV, the position you are seeking, and a brief description of the research you would like to pursue.",
+  "recruiting": "I am recruiting research assistants and postdocs starting Fall 2026, and PhD students starting Fall 2027. If you are interested, please email me your CV, the position you are seeking, and a brief description of the research you would like to pursue.",
   "bio_paragraphs": [
     "I am currently a Postdoctoral Researcher at the University of California, Berkeley, working with <a href=\"https://people.eecs.berkeley.edu/~adityagp/\">Prof.&nbsp;Aditya Parameswaran</a>. I will join <strong><span style=\"color:#0a509e;\">Nanyang Technological University (NTU)</span></strong> as <a href=\"https://careeraidhub.com/nanyang-assistant-associate-professorship-nap-at-ntu/\"><em><span style=\"color:#0a509e;\">Nanyang Assistant Professor</span></em></a> in Fall 2026.",
     "My research focuses on building reliable and scalable AI-powered systems for complex data work. Recently, I have been working on efficient document analytics through document structure understanding, and scalable LLM-powered analytics via query-time mechanisms and non-LLM proxies. Looking ahead, I plan to explore: (1) scalable LLM-powered (semantic) data processing; (2) building trustworthy AI-powered data systems; and (3) using agents to redesign database systems for multimodal data.",
