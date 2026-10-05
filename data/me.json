@@ -1,19 +1,18 @@
 {
   "name": "Yiming Lin",
-  "role": "Postdoctoral Researcher, University of California, Berkeley",
-  "role_incoming": "Incoming Nanyang Assistant Professor, at NTU (Starting Fall 2026)",
-  "location": "Berkeley, CA, USA",
-  "email": "yiminglin@berkeley.edu",
+  "role": "Nanyang Assistant Professor, Nanyang Technological University (NTU)",
+  "location": "Singapore",
+  "email": "yiming.lin@ntu.edu.sg",
   "photo": "data/yiming.png",
   "contact_links": [
     { "label": "Google Scholar", "href": "https://scholar.google.com/" }
   ],
   "recruiting": "I am recruiting research assistants and postdocs starting Fall 2026, and PhD students starting Fall 2027. If you are interested, please email me your CV, the position you are seeking, and a brief description of the research you would like to pursue.",
   "bio_paragraphs": [
-    "I am an incoming <a href=\"https://careeraidhub.com/nanyang-assistant-associate-professorship-nap-at-ntu/\"><em><span style=\"color:#0a509e;\">Nanyang Assistant Professor</span></em></a> at <strong><span style=\"color:#0a509e;\">Nanyang Technological University (NTU)</span></strong> in Fall 2026. Previously, I spent three years at UC Berkeley working with <a href=\"https://people.eecs.berkeley.edu/~adityagp/\">Prof.&nbsp;Aditya Parameswaran</a> as a Postdoctoral Researcher.",
-    "My research focuses on building reliable and scalable AI-powered systems for complex data work. Recently, I have been working on scalable semantic processing over unstructured data, and building data systems for reliable analytics. Looking ahead, I'm excited about: (1) <strong><em>building systems to manage the data and workloads created by agents.</em></strong> Agents generate huge volumes of data every minute. Is it useful, and if so, how to manage?(2) <strong><em>building trustworthy pipelines powered by LLMs.</em></strong> Complex agentic pipelines often fail silently, how do we detect why and where, and how to fix them?(3) <strong><em>rethinking database design for large-scale, multimodal data</em></strong>, which remains full of opportunities and still interests me.",
+    "I am a <a href=\"https://careeraidhub.com/nanyang-assistant-associate-professorship-nap-at-ntu/\"><em><span style=\"color:#0a509e;\">Nanyang Assistant Professor</span></em></a> at <strong><span style=\"color:#0a509e;\">Nanyang Technological University (NTU)</span></strong>. Previously, I spent three years at UC Berkeley working with <a href=\"https://people.eecs.berkeley.edu/~adityagp/\">Prof.&nbsp;Aditya Parameswaran</a> as a Postdoctoral Researcher.",
+    "My research focuses on building reliable and scalable AI-powered systems for complex data work. Recently, I have been working on scalable semantic processing over unstructured data and on building data systems for reliable analytics. Looking ahead, I'm excited about: (1) <strong><em>building systems to manage the data and workloads created by agents.</em></strong> Agents generate huge volumes of data every minute. Is it useful, and if so, how should we manage it? (2) <strong><em>building trustworthy pipelines powered by LLMs.</em></strong> Complex agentic pipelines often fail silently: how do we detect where and why they fail, and how do we fix them? (3) <strong><em>rethinking database design for large-scale, multimodal data</em></strong>, which remains full of opportunities and still interests me.",
     "<strong>Impact.</strong> My work on scalable, compute-intensive table ingestion and analytics has powered multiple smart space applications, providing reliable location services for years. These applications were deployed across five sites in two countries over six years, covering 40+ buildings at three universities (UCI, BSU, and Plaksha University in India), a senior living facility (Walnut Village, Orange County), and the U.S. Navy. During COVID-19, it powered occupancy tracking in T-COVE and was deployed across 30+ buildings at UC Irvine to help people avoid crowded spaces. My work on document analytics has produced several open-source projects (e.g., TWIX), processing over 30,000 pages across 300+ collections for collaborators in industry, public defense, journalism, and beyond.",
-    "<strong>Other Facts.</strong> I earned my Ph.D. from the University of California, Irvine, advised by <a href=\"https://sites.google.com/uci.edu/tipperslab/home?authuser=0\">Prof.&nbsp;Sharad Mehrotra</a>, and my bachelor’s degree from the Harbin Institute of Technology. I love landscape photography and traveling, and keep sharing the most recent photographs on my <a href=\"https://500px.com/p/yiminl18?view=photos\">500px</a>."
+    "<strong>Other Facts.</strong> I earned my Ph.D. from the University of California, Irvine, advised by <a href=\"https://sites.google.com/uci.edu/tipperslab/home?authuser=0\">Prof.&nbsp;Sharad Mehrotra</a>, and my bachelor’s degree from the Harbin Institute of Technology. I love landscape photography and traveling, and regularly share my latest photographs on <a href=\"https://500px.com/p/yiminl18?view=photos\">500px</a>."
   ],
   "photography_paragraph": "",
   "resume": null,

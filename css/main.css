@@ -144,7 +144,7 @@ a:focus {
 .sidebar__role {
   margin: 0 0 0.35rem;
   font-size: 0.88rem;
-  color: var(--sidebar-muted);
+  color: var(--link);
   line-height: 1.45;
 }
 
